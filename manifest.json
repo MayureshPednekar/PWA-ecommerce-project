@@ -1,0 +1,24 @@
+{
+	"name":"footcap",
+	"short_name":"FC",
+	"start_url":"index.html",
+	"display":"standalone",
+	"background_color":"#5900b3",
+	"theme_color":"black",
+	"scope": ".",
+	"description":"This is a footwear ecommerce website.",
+	"icons":[
+	{
+	"src":"assets/images/img4.png",
+	"sizes":"192x192",
+	"type":"image/png",
+	"purpose":"any maskable"
+	},
+	{
+	"src":"assets/images/img3.png",
+	"sizes":"512x512",
+	"type":"image/png",
+	"purpose":"any maskable"
+	}
+]
+}

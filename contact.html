@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Footwear E-commerce</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload banner
+  -->
+  <link rel="preload" href="./assets/images/hero-banner.png" as="image">
+
+  <meta name=
+  "apple-mobile-web-app-status-bar"
+        content="#aa7700">
+  <meta name="theme-color"
+        content="black">
+  <style>
+    /* Internal CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: hsl(0, 0%, 100%); /* white */
+      color: hsl(0, 0%, 0%); /* black */
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: white; /* bittersweet */
+      color: hsl(5, 100%, 69%); /* black */
+      padding: 10px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: hsl(0, 0%, 100%); /* white */
+      border-radius: 10px;
+      box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.1); /* smoky-black */
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid hsl(0, 0%, 0%); /* black */
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: vertical;
+      height: 150px;
+    }
+
+    input[type="submit"] {
+      background-color: hsl(5, 100%, 69%); /* black */
+      color: hsl(0, 0%, 100%); /* white */
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: hsl(0, 0%, 27%); /* onyx */
+    }
+  </style>
+</head>
+<body>
+    <header class="header" data-header>
+        <div class="container">
+    
+          <div class="overlay" data-overlay></div>
+    
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" alt="Footcap logo">
+          </a>
+    
+          <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+    
+          <nav class="navbar" data-navbar>
+    
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+    
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.svg" width="190" height="50" alt="Footcap logo">
+            </a>
+    
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <a href="index.html" class="navbar-link">Home</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="about.html" class="navbar-link">About</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Products</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Shop</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="#" class="navbar-link">Blog</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="contact.html" class="navbar-link">Contact</a>
+              </li>
+    
+            </ul>
+    
+          </nav>
+    
+        </div>
+      </header>
+
+  <div class="container">
+    <h1>Contact Us</h1>
+
+    <h1>Contact Us</h1>
+    <h1>Contact Us</h1>
+    <h1>Contact Us</h1><br>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
